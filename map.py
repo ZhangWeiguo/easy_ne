@@ -20,6 +20,5 @@ adj_matrix_e    = kneighbors_graph(embedding, embedding.shape[0],
                             metric='cosine',
                             mode='distance', 
                             include_self=True)
-
 m               = metric_map(adj_matrix_e, adj_matrix)
-print(m)
+print("MAP: %f"%m)

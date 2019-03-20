@@ -24,3 +24,4 @@
     * Some scripts support very large network embedding, others not
     * Not all the model achieve the best as the origin papers say, like SDNE
     * Other good model will be coded sustainedly
+    * We use Python 3.6
