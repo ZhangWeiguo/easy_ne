@@ -5,12 +5,12 @@
         * Must: edges.csv (show all the edges)
         * Not Must: group-edges.csv (show the label of the nodes)
     * Write the config file in /config/${data_name}.ini
-    * Train your model by ```python train.sh```
+    * Train your model as follow
         ```
         cd ${model_name}
         python reconstruct.py ${data_name}
         ```
-    * Evaluate your model by ```python evaluate.sh```
+    * Evaluate your model as follow
         ```
         Network reconstruct ability: python map.py ${data_name} ${model_name}
         Nodes classify ability: python classify.py ${data_name} ${model_name} ${train_size}
