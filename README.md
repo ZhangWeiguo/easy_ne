@@ -5,6 +5,7 @@
         * Must: edges.csv (show all the edges)
         * Not Must: group-edges.csv (show the label of the nodes)
     * Write the config file in /config/${data_name}.ini
+        * Especially you need to change the path setting in the config file
     * Train your model as follow
         ```
         cd ${model_name}
